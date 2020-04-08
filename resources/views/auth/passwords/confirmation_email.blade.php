@@ -25,13 +25,14 @@
         @endif
         <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
       </div>
-    
       <div >
         <!-- /.col -->
        <div class="" align="right">
           <div class="box-footer">
             <button type="submit" class="btn btn-primary">Suivant</button>
           </div>
+
+        <a href="login" style="color: green">Se connecter</a>
         </div>
       </div>
   {!! Form::close() !!}

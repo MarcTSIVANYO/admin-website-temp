@@ -1,0 +1,109 @@
+<!-- MAIN NAVIGATION -->
+<nav id="t3-mainnav" class="wrap navbar navbar-default t3-mainnav">
+	<div class="container">
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="navbar-header">
+			<div class="hidden-lg hidden-md">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".t3-navbar-collapse">
+				<i class="fa fa-bars"></i>
+				</button>
+				<button class="off-canvas-toggle " type="button" data-pos="left" data-nav="#t3-off-canvas" data-effect="off-canvas-effect-4">
+				<i class="fa fa-bars"></i>
+				</button>
+				<!-- OFF-CANVAS SIDEBAR -->
+				<div id="t3-off-canvas" class="t3-off-canvas ">
+					<div class="t3-off-canvas-header">
+						<h2 class="t3-off-canvas-header-title">Menubar</h2>
+						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+					</div>
+					<div class="t3-off-canvas-body">
+						<div class="t3-module module_menu " id="Mod114">
+							<div class="module-inner">
+								<h3 class="module-title "><span>Main Menu</span></h3>
+								<div class="module-ct">
+									<ul class="nav  nav-pills nav-stacked ">
+										<li class="item-435 active deeper dropdown parent">
+											<a class="dropdown-toggle" href="/index-2.html"
+												data-toggle="dropdown">
+												Accueil<em class="caret"></em>
+											</a>
+											<ul class="dropdown-menu">
+												<li class="item-580 current active">
+													<a href="home2.html" >Home 2</a>
+												</li>
+												<li class="item-589">
+													<a href="home3.html" >Home 3</a>
+												</li>
+												<li class="item-618">
+													<a href="home-4.html" >Home 4</a>
+												</li>
+											</ul>
+										</li>
+										<li class="item-586"><a href="../business.html" >Business</a></li>
+										<li class="item-592"><a href="../entertainment.html" >Entertainment</a></li>
+										<li class="item-593"><a href="../technology.html" >Technology</a></li>
+										<li class="item-595"><a href="../contact.html" >Contact</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- //OFF-CANVAS SIDEBAR -->
+			</div>
+			<!-- HEAD SEARCH -->
+			<div class="head-search">
+				<form class="form-search" action="http://themewinter.com/joomla/dailytimes/index.php/homepage/home2" method="post">
+					<div class="search">
+						<label for="mod-search-searchword">Search ...</label><i class="fa fa-search"></i><input name="searchword" id="mod-search-searchword" maxlength="200"  class="form-control " type="text" size="20" />	<input type="hidden" name="task" value="search" />
+						<input type="hidden" name="option" value="com_search" />
+						<input type="hidden" name="Itemid" value="580" />
+					</div>
+				</form>
+			</div>
+			<!-- //HEAD SEARCH -->
+
+		</div>
+		<div class="t3-navbar-collapse navbar-collapse collapse"></div>
+
+		<div class=" hidden-sm hidden-xs">
+			<div class="t3-navbar navbar-collapse collapse">
+				<div  class="t3-megamenu animate slide"  data-duration="400" data-responsive="true">
+					<ul itemscope itemtype="http://www.schema.org/SiteNavigationElement" class="nav navbar-nav level0">
+						<li itemprop='name' class="active dropdown mega" data-id="435" data-level="1" data-xicon="fa fa-home">
+							<a itemprop='url' class=" dropdown-toggle" href="/index-2.html"   data-target="#" data-toggle="dropdown"><span class="fa fa-home"></span>Accueil <em class="caret"></em></a>
+							<div class="nav-child dropdown-menu mega-dropdown-menu"  ><div class="mega-dropdown-inner">
+								<div class="row">
+									<div class="col-xs-12 mega-col-nav" data-width="12"><div class="mega-inner">
+										<ul itemscope itemtype="http://www.schema.org/SiteNavigationElement" class="mega-nav level1">
+											<li itemprop='name' class="current active" data-id="580" data-level="2">
+												<a itemprop='url' class="" href="home2.html"   data-target="#">Home 2 </a>
+											</li>
+											<li itemprop='name'  data-id="589" data-level="2">
+												<a itemprop='url' class="" href="home3.html"   data-target="#">Home 3 </a>
+											</li>
+											<li itemprop='name'  data-id="618" data-level="2">
+												<a itemprop='url' class="" href="home-4.html"   data-target="#">Home 4 </a>
+											</li>
+										</ul>
+									</div></div>
+								</div>
+							</div></div>
+						</li>
+
+						<li itemprop='name'  data-id="592" data-level="1" data-xicon="fa fa-music">
+							<a itemprop='url' class="" href="../entertainment.html"   data-target="#"><span class="fa fa-music"></span>Entertainment </a>
+						</li>
+						<li itemprop='name'  data-id="593" data-level="1" data-xicon="fa fa-apple">
+							<a itemprop='url' class="" href="../technology.html"   data-target="#"><span class="fa fa-apple"></span>Technology </a>
+						</li>
+						<li itemprop='name'  data-id="595" data-level="1" data-xicon="fa fa-paper-plane">
+							<a itemprop='url' class="" href="../contact.html"   data-target="#"><span class="fa fa-paper-plane"></span>Contact </a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</nav>
+<!-- //MAIN NAVIGATION -->

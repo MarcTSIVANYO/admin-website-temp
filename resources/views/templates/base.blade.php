@@ -3,7 +3,16 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>ACCESS - TOGO | Espace de travail</title>
+  <title>
+    <?php 
+            use App\Configuration; 
+            $configuration = Configuration::first();
+        ?>
+      @if(isset($configuration->nom_site))
+         {{ $configuration->nom_site }} 
+      @else
+         Web site 
+      @endif</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <style type="text/css">
@@ -45,9 +54,9 @@
     <!-- Logo -->
     <a href="javascript:void(0)" class="logo">
       <!-- mini logo for sidebar mini 50x50 pixels -->
-      <span class="logo-mini">ACCESS</span>
+      <span class="logo-mini">ADMIN</span>
       <!-- logo for regular state and mobile devices -->
-      <span class="logo-lg"><b>ACCESS</b></span>
+      <span class="logo-lg"><b>ADMIN</b></span>
     </a>
     <!-- Header Navbar: style can be found in header.less -->
     <nav class="navbar navbar-static-top">
@@ -108,7 +117,7 @@
                   <a href="javascript:openwindows('{{route('utilisateurs.edit',Auth::user()->id_users)}}',990,550,true)" class="btn btn-default btn-flat">Profil</a>
                 </div>
                 <div class="pull-right">
-                  <a href="{{url('/logout')}}" class="btn btn-default btn-flat">Logout</a>
+                  <a href="{{url('/logout')}}" class="btn btn-default btn-flat">Déconnexion</a>
                 </div>
               </li>
             </ul>
@@ -157,7 +166,7 @@
     <div class="pull-right hidden-xs">
       <b>Powered by </b> <a href="http://www.mastersolut.com" target="_blank">MasterSolut</a>
     </div>
-    <strong>Copyright &copy; 2017 <a href="javascript:void(0)" target="_blank">ACCESS</a>.</strong> All rights reserved.
+    <strong>Copyright &copy;  <script>document.write(new Date().getFullYear());</script> <a href="javascript:void(0)" target="_blank">{{$configuration->nom_site}}</a>.</strong> All rights reserved.
   </footer>
 
   <aside class="control-sidebar control-sidebar-dark">

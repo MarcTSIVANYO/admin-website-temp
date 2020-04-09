@@ -16,6 +16,8 @@
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <!-- Bootstrap 3.3.6 -->
   <link rel="stylesheet" href="{{ asset('/resources/assets/bootstrap/css/bootstrap.min.css') }}">
+  
+  <link rel="shortcut icon" href="../{{ $configuration->favicon }}"  />
   <!-- Font Awesome -->
   <link rel="stylesheet" href="{{ asset('/resources/assets/font-awesome/4.5.0/css/font-awesome.min.css') }}">
   <!-- Ionicons -->

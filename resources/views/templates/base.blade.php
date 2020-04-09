@@ -44,7 +44,7 @@
    <!-- Image Plugin-->
    <link rel="stylesheet" href="{{ asset('/resources/assets/jasny/extend/css/jasny-bootstrap.min.css') }}"> 
  
-  <link rel="shortcut icon" href="../{{ $configuration->favicon }}"  /> 
+  <link rel="shortcut icon" href="{{ asset('/ $configuration->favicon') }}"  /> 
 </head>
 <body class="hold-transition skin-blue sidebar-mini">
 <!-- Site wrapper -->
@@ -54,9 +54,9 @@
     <!-- Logo -->
     <a href="javascript:void(0)" class="logo">
       <!-- mini logo for sidebar mini 50x50 pixels -->
-      <span class="logo-mini">ADMIN</span>
+      <span class="logo-mini">ASSO TOOLS</span>
       <!-- logo for regular state and mobile devices -->
-      <span class="logo-lg"><b>ADMIN</b></span>
+      <span class="logo-lg"><b>ASSO TOOLS</b></span>
     </a>
     <!-- Header Navbar: style can be found in header.less -->
     <nav class="navbar navbar-static-top">

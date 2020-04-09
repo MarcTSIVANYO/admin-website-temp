@@ -20,7 +20,7 @@
 <div class="form-group {{ $errors->has('section_id') ? 'has-error' : ''}}">
     {!! Form::label('section_id', 'Section', ['class' => 'col-sm-2 control-label']) !!}
     <div class="col-sm-10">
-        {!! Form::select('section_id', $sections, null, ['class' => 'form-control select2']) !!}
+        {!! Form::select('section_id', $sections, Session::get('section_id'), ['class' => 'form-control select2']) !!}
         {!! $errors->first('section_id', '<p class="help-block">:message</p>') !!}
     </div>
 </div>

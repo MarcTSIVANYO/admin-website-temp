@@ -145,6 +145,18 @@ class CategoriesController extends Controller
         return view('admin.categories.index',compact('categories', 'pages','page_id'));
     }
 
+ public function listByLibelle($page_libelle)
+    {
+        $page = Page::where('fixe',$page_libelle)->first();
+        $categories = DB::table('categories')
+        ->where('visible', '=', '1')
+        ->where('page_id', '=', $page->id)
+        ->orderBy('indice','asc')
+        ->get();
+        $page_id=$page->id;
+        $pages = Page::find($page_id)->get();
+        return view('admin.categories.index',compact('categories', 'pages','page_id'));
+    }
     /**
      * Remove the specified resource from storage.
      *

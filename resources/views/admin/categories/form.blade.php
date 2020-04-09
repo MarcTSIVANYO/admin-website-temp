@@ -52,7 +52,7 @@
 <div class="form-group {{ $errors->has('page_id') ? 'has-error' : ''}}">
     {!! Form::label('page_id', 'Page', ['class' => 'col-sm-2 control-label']) !!}
     <div class="col-sm-10">
-        {!! Form::select('page_id', $pages, null, ['class' => 'form-control select2']) !!}
+        {!! Form::select('page_id', $pages, Session::get('page_id'), ['class' => 'form-control select2']) !!}
         {!! $errors->first('page_id', '<p class="help-block">:message</p>') !!}
     </div>
 </div>

@@ -117,7 +117,7 @@
                   <a href="javascript:openwindows('{{route('utilisateurs.edit',Auth::user()->id_users)}}',990,550,true)" class="btn btn-default btn-flat">Profil</a>
                 </div>
                 <div class="pull-right">
-                  <a href="{{url('/logout')}}" class="btn btn-default btn-flat">Déconnexion</a>
+                  <a href="{{url('/logout')}}" class="btn btn-default btn-flat">Se déconnecter</a>
                 </div>
               </li>
             </ul>

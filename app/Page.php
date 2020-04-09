@@ -25,5 +25,5 @@ class Page extends Model
      *
      * @var array
      */
-    protected $fillable = ['titre', 'libelle', 'fichier', 'position', 'contenu', 'publier', 'section_id'];
+    protected $fillable = ['titre', 'libelle', 'fixe', 'fichier', 'position', 'contenu', 'publier', 'section_id'];
 }

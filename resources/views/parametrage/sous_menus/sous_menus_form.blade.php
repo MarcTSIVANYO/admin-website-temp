@@ -32,8 +32,9 @@
       </button>
       {{ Session::get('flash_message') }}
     </div>
+    
     <script type="text/javascript">
-    opener.location.replace("{{URL::To('sous_menus/list_by/'.Session::get('page_id')}}");
+    opener.location.replace("{{url('sous_menus/list_by/'.Session::get('menu_id'))}}"); 
     </script>
     @endif
  

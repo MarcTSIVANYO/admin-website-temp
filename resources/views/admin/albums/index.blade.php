@@ -21,8 +21,8 @@
                       <h3 class="box-title">Liste des albums</h3>
                       <!-- tools box -->
                       <div class="pull-right box-tools"> 
-                       <a href="javascript:openwindows('{{ url('/admin/albums/create') }}',800,400,true)" class="btn btn-block btn-primary" title="Add New albums">
-                        <span class="glyphicon glyphicon-plus"/> Nouveau</a>
+                       <!-- <a href="javascript:openwindows('{{ url('/admin/albums/create') }}',800,400,true)" class="btn btn-block btn-primary" title="Add New albums">
+                        <span class="glyphicon glyphicon-plus"/> Nouveau</a> -->
                       </div>
                       <!-- /. tools -->
                     </div> 

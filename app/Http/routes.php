@@ -10,7 +10,6 @@
 | and give it the controller to call when that URI is requested.
 |
 */
-Route::resource('dashboard', 'HomeController');
 
 /*Route::get('/', function () {
      return view('auth.login');
@@ -18,6 +17,7 @@ Route::resource('dashboard', 'HomeController');
 Route::resource('/', 'HomeController');
 Route::auth();
 
+Route::resource('dashboard', 'HomeController');
 // utilisateur
 Route::resource('utilisateurs','utilisateursController');
 Route::get('enable_users/{id}','utilisateursController@enable_users');
@@ -74,6 +74,7 @@ Route::group([
 		Route::resource('sections', 'Admin\\SectionsController');
 		Route::resource('pages', 'Admin\\PagesController');
 		Route::resource('categories', 'Admin\\CategoriesController');
+		Route::get('page/{libelle}', 'Admin\\CategoriesController@listByLibelle');
 		Route::get('categories/list_by/{id}', 'Admin\\CategoriesController@listBy');
 		Route::resource('articles', 'Admin\\ArticlesController');
 		Route::get('articles/list_by/{id}', 'Admin\\ArticlesController@listBy');

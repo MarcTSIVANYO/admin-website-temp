@@ -5,13 +5,13 @@
  Source Server Type    : MySQL
  Source Server Version : 100410
  Source Host           : localhost:3306
- Source Schema         : admin_db
+ Source Schema         : acdief_db
 
  Target Server Type    : MySQL
  Target Server Version : 100410
  File Encoding         : 65001
 
- Date: 09/04/2020 03:59:33
+ Date: 10/04/2020 23:03:51
 */
 
 SET NAMES utf8mb4;
@@ -37,7 +37,7 @@ CREATE TABLE `albums`  (
 -- Records of albums
 -- ----------------------------
 INSERT INTO `albums` VALUES (1, 'Accueil Slider', 'home-slider', 1, 1, 1, '2020-04-09 03:08:35', '2020-04-09 01:08:35');
-INSERT INTO `albums` VALUES (2, 'Partenaires', 'partenaires', 2, 1, 1, '2020-04-09 03:08:45', '2020-04-09 01:08:45');
+INSERT INTO `albums` VALUES (2, 'Nos Partenaires', 'partenaires', 2, 1, 1, '2020-04-09 16:39:56', '2020-04-09 16:39:56');
 
 -- ----------------------------
 -- Table structure for articles
@@ -90,10 +90,10 @@ CREATE TABLE `categories`  (
 -- ----------------------------
 -- Records of categories
 -- ----------------------------
-INSERT INTO `categories` VALUES (1, 'Apropos', 'apropos', NULL, 1, '<p>La question des droits de l&rsquo;homme en g&eacute;n&eacute;ral et celle des droits des enfants et de la jeune fille en particulier, la probl&eacute;matique de la paix et la s&eacute;curit&eacute; en Afrique de l&rsquo;ouest en g&eacute;n&eacute;ral et au Togo en particulier, la probl&eacute;matique de l&rsquo;engagement civique des jeunes togolais et la question de l&rsquo;autonomisation financi&egrave;re des jeunes filles ont suscit&eacute; des interrogations aux jeunes conscients de leur contribution au processus du d&eacute;veloppement au Togo et en Afrique. Pour y parvenir, ces jeunes se sont r&eacute;unis en association d&eacute;nomm&eacute;e ACDIEF.<br />\r\nACDIEF entendue Action Collective pour le D&eacute;veloppement Int&eacute;gral de l&rsquo;Enfance et de la jeune Fille (ACDIEF) est une association &agrave; but non lucratif cr&eacute;&eacute;e en avril 2013. Elle a eu son r&eacute;c&eacute;piss&eacute; le 03 octobre 2019 sous le num&eacute;ro&nbsp;<strong>0923/MATDCL-SG-DLPAP-DOCA.</strong><br />\r\nElle est une association cr&eacute;&eacute;e par des jeunes et dirig&eacute;e par des jeunes dynamiques togolais &eacute;pris de la question du d&eacute;veloppement humain durable dans un contexte de paix et des droits humains.</p>\r\n', 1, 1, 1, '2020-04-09 03:17:16', '2020-04-09 01:17:16');
-INSERT INTO `categories` VALUES (2, 'Notre But', 'but', NULL, 2, '<p>L&rsquo;Organisation a pour but de contribuer &agrave; l&rsquo;&eacute;panouissement de l&rsquo;enfance et de la jeune fille dans une approche de d&eacute;veloppement humain durable et participatif, promouvoir la paix et la s&eacute;curit&eacute;.</p>\r\n', 1, 1, 1, '2020-04-09 03:31:30', '2020-04-09 01:31:30');
-INSERT INTO `categories` VALUES (3, 'Nos objectifs', 'objectifs', NULL, 3, '<p>Promouvoir et prot&eacute;ger les droits humains en g&eacute;n&eacute;ral, les droits des enfants et de la jeune fille en particulier. Promouvoir la paix et la s&eacute;curit&eacute;. Offrir un accompagnement social, psychologique aux enfants et jeunes fille d&eacute;munies. Offrir un accompagnement juridique, psychosocial aux enfants et jeunes filles en conflit avec la loi.</p>\r\n', 1, 1, 1, '2020-04-09 03:32:06', '2020-04-09 01:32:06');
-INSERT INTO `categories` VALUES (4, 'Notre mission', 'mission', NULL, 4, '<p>Informer, &eacute;duquer et communiquer autour de la question des droits humains, li&eacute;e aux groupes vuln&eacute;rables, jeunes et aux communaut&eacute;s &agrave; la base ; mobiliser les jeunes et autres acteurs autours de la question de l&rsquo;engagement civique, la paix et la s&eacute;curit&eacute; et l&rsquo;entrepreneuriat.</p>\r\n', 1, 1, 1, '2020-04-09 03:32:46', '2020-04-09 01:32:46');
+INSERT INTO `categories` VALUES (1, 'Apropos', 'est une association à but non lucratif,pour promouvoir les droits de l’homme en général et en particulier les droits des enfants, de la jeune fille.', 'fichiers_siteWeb/1586449841.JPG', 1, '<p>La question des droits de l&rsquo;homme en g&eacute;n&eacute;ral et celle des droits des enfants et de la jeune fille en particulier, la probl&eacute;matique de la paix et la s&eacute;curit&eacute; en Afrique de l&rsquo;ouest en g&eacute;n&eacute;ral et au Togo en particulier, la probl&eacute;matique de l&rsquo;engagement civique des jeunes togolais et la question de l&rsquo;autonomisation financi&egrave;re des jeunes filles ont suscit&eacute; des interrogations aux jeunes conscients de leur contribution au processus du d&eacute;veloppement au Togo et en Afrique. Pour y parvenir, ces jeunes se sont r&eacute;unis en association d&eacute;nomm&eacute;e ACDIEF.<br />\r\nACDIEF entendue Action Collective pour le D&eacute;veloppement Int&eacute;gral de l&rsquo;Enfance et de la jeune Fille (ACDIEF) est une association &agrave; but non lucratif cr&eacute;&eacute;e en avril 2013. Elle a eu son r&eacute;c&eacute;piss&eacute; le 03 octobre 2019 sous le num&eacute;ro&nbsp;<strong>0923/MATDCL-SG-DLPAP-DOCA.</strong><br />\r\nElle est une association cr&eacute;&eacute;e par des jeunes et dirig&eacute;e par des jeunes dynamiques togolais &eacute;pris de la question du d&eacute;veloppement humain durable dans un contexte de paix et des droits humains.</p>\r\n', 1, 1, 1, '2020-04-10 22:17:14', '2020-04-10 22:17:14');
+INSERT INTO `categories` VALUES (2, 'Notre But', 'but', 'fichiers_siteWeb/1586450007.JPG', 2, '<p>L&rsquo;Organisation a pour but de contribuer &agrave; l&rsquo;&eacute;panouissement de l&rsquo;enfance et de la jeune fille dans une approche de d&eacute;veloppement humain durable et participatif, promouvoir la paix et la s&eacute;curit&eacute;.</p>\r\n', 1, 1, 1, '2020-04-09 18:33:27', '2020-04-09 16:33:27');
+INSERT INTO `categories` VALUES (3, 'Nos objectifs', 'objectifs', 'fichiers_siteWeb/1586450031.JPG', 3, '<p>Promouvoir et prot&eacute;ger les droits humains en g&eacute;n&eacute;ral, les droits des enfants et de la jeune fille en particulier. Promouvoir la paix et la s&eacute;curit&eacute;. Offrir un accompagnement social, psychologique aux enfants et jeunes fille d&eacute;munies. Offrir un accompagnement juridique, psychosocial aux enfants et jeunes filles en conflit avec la loi.</p>\r\n', 1, 1, 1, '2020-04-09 18:33:51', '2020-04-09 16:33:51');
+INSERT INTO `categories` VALUES (4, 'Notre mission', 'mission', 'fichiers_siteWeb/1586450047.JPG', 4, '<p>Informer, &eacute;duquer et communiquer autour de la question des droits humains, li&eacute;e aux groupes vuln&eacute;rables, jeunes et aux communaut&eacute;s &agrave; la base ; mobiliser les jeunes et autres acteurs autours de la question de l&rsquo;engagement civique, la paix et la s&eacute;curit&eacute; et l&rsquo;entrepreneuriat.</p>\r\n', 1, 1, 1, '2020-04-09 18:34:07', '2020-04-09 16:34:07');
 INSERT INTO `categories` VALUES (6, 'GaucheInfos', 'Informations à gauches', NULL, 1, '<ul>\r\n	<li><strong>Enseignement des droits humains dans les &eacute;coles et mise en place des clubs de jeunes promoteurs des droits humains en milieux scolaires</strong></li>\r\n	<li><strong>Monitoring des lieux d&eacute;tention</strong></li>\r\n	<li><strong>Protections des groupes vuln&eacute;rables</strong></li>\r\n	<li><strong>Droits de l&rsquo;homme et moi</strong></li>\r\n	<li><strong>Jeunesse, citoyennet&eacute;, paix et s&eacute;curit&eacute;</strong></li>\r\n	<li><strong>Forum national et international</strong></li>\r\n	<li><strong>Concours des droits de l&rsquo;homme</strong></li>\r\n</ul>\r\n', 1, 1, 5, '2020-04-09 03:17:40', '2020-04-09 01:17:40');
 INSERT INTO `categories` VALUES (7, 'DroiteInfos', 'Informations à droite', NULL, 2, '<ul>\r\n	<li><strong>Un paquet de cahier &agrave; yawa</strong></li>\r\n	<li><strong>Education &agrave; la citoyennet&eacute; et aux valeurs de paix</strong></li>\r\n	<li><strong>Formation en entrepreneuriat</strong></li>\r\n	<li><strong>Organisation des rencontres d&rsquo;opportunit&eacute;</strong></li>\r\n	<li><strong>Organisation des conf&eacute;rences et ateliers</strong></li>\r\n	<li><strong>Organisation des camps de soutien scolaires</strong></li>\r\n	<li><strong>Action humanitaires &agrave; l&rsquo;endroit des enfants et jeunes filles</strong></li>\r\n	<li><strong>Lutte contre les violences bas&eacute;es sur le genre</strong></li>\r\n	<li><strong>TIC et jeunes filles en milieux scolaires</strong></li>\r\n</ul>\r\n', 1, 1, 5, '2020-04-09 03:18:09', '2020-04-09 01:18:09');
 INSERT INTO `categories` VALUES (8, 'FORMATION DES AMBASSADEURS DE LUTTE CONTRE LES VIOLENCES BASÉES SUR LE GENRE.', 'formation-des-ambassadeurs', 'fichiers_siteWeb/1586396726.jpg', 1, '<p>Dans le cadre de ses actions de lutte contre les violences bas&eacute;es sur le genre et donc de promotion de l&rsquo;autonomisation de la jeune fille et de la femme, ACDIEF a initi&eacute; le projet de formation des ambassadeurs de lutte contre les VBG. Ce projet a permis de disposer des ambassadeurs dans la r&eacute;gion Maritime. Il se poursuivra dans la r&eacute;gion des plateaux, centrale, Kara et Savanes. L&rsquo;objectif est de disposer de ces ambassadeurs dans toutes les r&eacute;gions pour servir des cellules d&rsquo;&eacute;coutes et d&rsquo;alerte sur les VBG.</p>\r\n', 1, 1, 6, '2020-04-09 01:45:26', '2020-04-09 01:45:26');
@@ -107,9 +107,9 @@ INSERT INTO `categories` VALUES (15, 'Médias –droits humains', 'Médias –dr
 INSERT INTO `categories` VALUES (16, 'ACDIEF Fellow', 'ACDIEF Fellow', NULL, 7, '', 1, 1, 4, '2020-04-09 01:53:09', '2020-04-09 01:53:09');
 INSERT INTO `categories` VALUES (17, 'Action humanitaire', 'Action humanitaire', NULL, 8, '', 1, 1, 4, '2020-04-09 01:53:38', '2020-04-09 01:53:38');
 INSERT INTO `categories` VALUES (18, 'Formation', 'Formation', NULL, 9, '', 1, 1, 4, '2020-04-09 01:53:52', '2020-04-09 01:53:52');
-INSERT INTO `categories` VALUES (19, 'Promotion et protection des droits humains', 'Droits des enfants et de la jeune fille.', NULL, 1, '<p>Droits des enfants et de la jeune fille.</p>\r\n', 1, 1, 2, '2020-04-09 01:56:20', '2020-04-09 01:56:20');
-INSERT INTO `categories` VALUES (20, 'Paix et Sécurité', 'Paix et Sécurité', NULL, 2, '<p>Paix et S&eacute;curit&eacute;</p>\r\n', 1, 1, 2, '2020-04-09 03:57:25', '2020-04-09 01:57:25');
-INSERT INTO `categories` VALUES (21, 'Entrepreneuriat des jeunes', 'Entrepreneuriat des jeunes', NULL, 3, '<p>Entrepreneuriat des jeunes</p>\r\n', 1, 1, 2, '2020-04-09 01:56:59', '2020-04-09 01:56:59');
+INSERT INTO `categories` VALUES (19, 'Promotion et protection des droits humains', 'Droits des enfants et de la jeune fille.', 'fichiers_siteWeb/1586449644.jpg', 1, '<p>Droits des enfants et de la jeune fille.</p>\r\n', 1, 1, 2, '2020-04-09 18:27:24', '2020-04-09 16:27:24');
+INSERT INTO `categories` VALUES (20, 'Paix et Sécurité', 'Paix et Sécurité', 'fichiers_siteWeb/1586449644.jpg', 2, '<p>Paix et S&eacute;curit&eacute;</p>\r\n', 1, 1, 2, '2020-04-09 18:28:44', '2020-04-09 18:28:44');
+INSERT INTO `categories` VALUES (21, 'Entrepreneuriat des jeunes', 'Entrepreneuriat des jeunes', 'fichiers_siteWeb/1586449644.jpg', 3, '<p>Entrepreneuriat des jeunes</p>\r\n', 1, 1, 2, '2020-04-09 18:28:45', '2020-04-09 18:28:45');
 
 -- ----------------------------
 -- Table structure for configurations
@@ -134,7 +134,7 @@ CREATE TABLE `configurations`  (
 -- ----------------------------
 -- Records of configurations
 -- ----------------------------
-INSERT INTO `configurations` VALUES (1, 'ACDIEF-TOGO', '+228 91 91 27 03 ', '+228 99 63 96 60', 'contact@access-togo.com', 'Lomé-TOGO', 'fichiers/logo-1586396326.jpg', 'fichiers/favicon-1586396327.jpg', 'http://www-acdieftogo.org/', 1, '2020-04-09 03:38:47', '2020-04-09 01:38:47');
+INSERT INTO `configurations` VALUES (1, 'ACDIEF', '+228 91 91 27 03', '+228 99 63 96 60', 'acdieftogo@gmail.com', 'Lomé-TOGO', 'fichiers/logo-1586396326.jpg', 'fichiers/favicon-1586396327.jpg', 'www-acdieftogo.org', 1, '2020-04-10 16:13:34', '2020-04-10 16:13:34');
 
 -- ----------------------------
 -- Table structure for droits
@@ -157,23 +157,28 @@ CREATE TABLE `droits`  (
   CONSTRAINT `droits_ibfk_1` FOREIGN KEY (`id_sous_menus`) REFERENCES `sous_menus` (`id_sous_menus`) ON DELETE CASCADE ON UPDATE CASCADE,
   CONSTRAINT `droits_ibfk_2` FOREIGN KEY (`id_type_users`) REFERENCES `type_users` (`id_type_users`) ON DELETE CASCADE ON UPDATE CASCADE,
   CONSTRAINT `droits_ibfk_3` FOREIGN KEY (`id_menus`) REFERENCES `menus` (`id_menus`) ON DELETE CASCADE ON UPDATE CASCADE
-) ENGINE = InnoDB AUTO_INCREMENT = 51 CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Dynamic;
+) ENGINE = InnoDB AUTO_INCREMENT = 68 CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Dynamic;
 
 -- ----------------------------
 -- Records of droits
 -- ----------------------------
-INSERT INTO `droits` VALUES (39, 1, 1, '2020-04-09 00:58:19', '2020-04-09 00:58:19', 1, NULL, 1, NULL);
-INSERT INTO `droits` VALUES (40, 1, 1, '2020-04-09 00:58:19', '2020-04-09 00:58:19', 2, NULL, 1, NULL);
-INSERT INTO `droits` VALUES (41, 1, 1, '2020-04-09 00:58:19', '2020-04-09 00:58:19', 3, NULL, 1, NULL);
-INSERT INTO `droits` VALUES (42, 1, 1, '2020-04-09 00:58:19', '2020-04-09 00:58:19', 4, NULL, 1, NULL);
-INSERT INTO `droits` VALUES (43, 1, 1, '2020-04-09 00:58:19', '2020-04-09 00:58:19', 8, NULL, 1, NULL);
-INSERT INTO `droits` VALUES (44, 1, 1, '2020-04-09 00:58:19', '2020-04-09 00:58:19', 9, NULL, 1, NULL);
-INSERT INTO `droits` VALUES (45, 1, 1, '2020-04-09 00:58:19', '2020-04-09 00:58:19', 10, NULL, 1, NULL);
-INSERT INTO `droits` VALUES (46, 1, 1, '2020-04-09 00:58:19', '2020-04-09 00:58:19', 11, NULL, 1, NULL);
-INSERT INTO `droits` VALUES (47, 1, 1, '2020-04-09 00:58:19', '2020-04-09 00:58:19', NULL, NULL, 1, 5);
-INSERT INTO `droits` VALUES (48, 1, 1, '2020-04-09 00:58:20', '2020-04-09 00:58:20', NULL, NULL, 1, 6);
-INSERT INTO `droits` VALUES (49, 1, 1, '2020-04-09 00:58:20', '2020-04-09 00:58:20', NULL, NULL, 1, 7);
-INSERT INTO `droits` VALUES (50, 1, 1, '2020-04-09 00:58:20', '2020-04-09 00:58:20', NULL, NULL, 1, 9);
+INSERT INTO `droits` VALUES (51, 1, 1, '2020-04-10 21:01:47', '2020-04-10 21:01:47', 4, NULL, 2, NULL);
+INSERT INTO `droits` VALUES (52, 1, 1, '2020-04-10 21:01:47', '2020-04-10 21:01:47', 8, NULL, 2, NULL);
+INSERT INTO `droits` VALUES (53, 1, 1, '2020-04-10 21:01:47', '2020-04-10 21:01:47', 9, NULL, 2, NULL);
+INSERT INTO `droits` VALUES (54, 1, 1, '2020-04-10 21:01:47', '2020-04-10 21:01:47', 10, NULL, 2, NULL);
+INSERT INTO `droits` VALUES (55, 1, 1, '2020-04-10 21:01:47', '2020-04-10 21:01:47', 11, NULL, 2, NULL);
+INSERT INTO `droits` VALUES (56, 1, 1, '2020-04-10 21:01:47', '2020-04-10 21:01:47', NULL, NULL, 2, 7);
+INSERT INTO `droits` VALUES (57, 1, 1, '2020-04-10 21:01:47', '2020-04-10 21:01:47', NULL, NULL, 2, 9);
+INSERT INTO `droits` VALUES (58, 1, 1, '2020-04-10 21:02:10', '2020-04-10 21:02:10', 1, NULL, 1, NULL);
+INSERT INTO `droits` VALUES (59, 1, 1, '2020-04-10 21:02:10', '2020-04-10 21:02:10', 2, NULL, 1, NULL);
+INSERT INTO `droits` VALUES (60, 1, 1, '2020-04-10 21:02:10', '2020-04-10 21:02:10', 3, NULL, 1, NULL);
+INSERT INTO `droits` VALUES (61, 1, 1, '2020-04-10 21:02:10', '2020-04-10 21:02:10', 4, NULL, 1, NULL);
+INSERT INTO `droits` VALUES (62, 1, 1, '2020-04-10 21:02:10', '2020-04-10 21:02:10', 8, NULL, 1, NULL);
+INSERT INTO `droits` VALUES (63, 1, 1, '2020-04-10 21:02:10', '2020-04-10 21:02:10', 9, NULL, 1, NULL);
+INSERT INTO `droits` VALUES (64, 1, 1, '2020-04-10 21:02:11', '2020-04-10 21:02:11', 10, NULL, 1, NULL);
+INSERT INTO `droits` VALUES (65, 1, 1, '2020-04-10 21:02:11', '2020-04-10 21:02:11', 11, NULL, 1, NULL);
+INSERT INTO `droits` VALUES (66, 1, 1, '2020-04-10 21:02:11', '2020-04-10 21:02:11', NULL, NULL, 1, 7);
+INSERT INTO `droits` VALUES (67, 1, 1, '2020-04-10 21:02:11', '2020-04-10 21:02:11', NULL, NULL, 1, 9);
 
 -- ----------------------------
 -- Table structure for groupe_users
@@ -255,7 +260,7 @@ INSERT INTO `pages` VALUES (1, 'Présentation', 'apropos', 'apropos', NULL, 1, '
 INSERT INTO `pages` VALUES (2, 'Domaines d\'intervention', 'domaines', 'domaines', NULL, 2, '', 1, 1, 1, '2020-04-09 02:29:28', '2020-04-09 02:29:28');
 INSERT INTO `pages` VALUES (4, 'Programmes', 'programmes', 'programmes', NULL, 3, NULL, 1, 1, 1, '2020-04-09 02:28:36', '2020-04-09 02:28:33');
 INSERT INTO `pages` VALUES (5, 'Nos Activités', 'activites', 'activites', NULL, 0, NULL, 1, 1, 1, '2020-04-09 02:50:04', '2020-04-09 02:50:04');
-INSERT INTO `pages` VALUES (6, 'Actualités', 'actualites', 'actualites', NULL, 0, NULL, 1, 1, 1, '2020-04-09 02:59:16', '2020-04-09 02:59:16');
+INSERT INTO `pages` VALUES (6, 'Actualités', 'actualites', 'https://drive.google.com/open?id=1FHB_OnWCvgj5A70SWDmd6FnnayvsGtgy', NULL, 0, NULL, 1, 1, 1, '2020-04-09 16:40:55', '2020-04-09 16:40:55');
 
 -- ----------------------------
 -- Table structure for photos
@@ -275,13 +280,21 @@ CREATE TABLE `photos`  (
   PRIMARY KEY (`id`) USING BTREE,
   INDEX `album_id`(`album_id`) USING BTREE,
   CONSTRAINT `photos_ibfk_1` FOREIGN KEY (`album_id`) REFERENCES `albums` (`id`) ON DELETE CASCADE ON UPDATE CASCADE
-) ENGINE = InnoDB AUTO_INCREMENT = 3 CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Dynamic;
+) ENGINE = InnoDB AUTO_INCREMENT = 11 CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Dynamic;
 
 -- ----------------------------
 -- Records of photos
 -- ----------------------------
-INSERT INTO `photos` VALUES (1, 'Photo1', 'photo', 'photos/photo1490898215.jpg', 1, 1, 1, 1, '2017-03-30 18:13:01', '2017-03-30 19:01:05');
-INSERT INTO `photos` VALUES (2, 'House', 'house', 'photos/photo1490900673.jpg', 2, 1, 1, 1, '2017-03-30 19:04:33', '2017-03-30 19:04:33');
+INSERT INTO `photos` VALUES (1, 'Nous sommes ACDIEF', 'L’Organisation a pour but de contribuer à l’épanouissement de l’enfance et de la jeune fille dans une approche de développement humain durable et participatif, promouvoir la paix et la sécurité', 'photos/photo1586437277.jpg', 1, 1, 1, 1, '2020-04-09 15:01:17', '2020-04-09 13:01:17');
+INSERT INTO `photos` VALUES (2, 'Un domaine d’intervention clair', 'L’Organisation intervient dans le domaine de la promotion et protection de l’homme et de l’enfant et de la jeune fille, la paix et la sécurité, et l’entrepreneuriat des jeunes.', 'photos/photo1586437313.jpg', 2, 1, 1, 1, '2020-04-09 15:01:53', '2020-04-09 13:01:53');
+INSERT INTO `photos` VALUES (3, 'PNUD', 'PNUD', 'photos/photo1586444686.jpg', 1, 1, 1, 2, '2020-04-09 17:04:46', '2020-04-09 15:04:46');
+INSERT INTO `photos` VALUES (4, 'ONU-TOGO', 'ONU-TOGO', 'photos/photo1586436997.jpg', 2, 1, 1, 2, '2020-04-09 12:56:37', '2020-04-09 12:56:37');
+INSERT INTO `photos` VALUES (5, 'UNION EUROPÉENNE', 'UNION EUROPÉENNE', 'photos/photo1586437036.jpg', 3, 1, 1, 2, '2020-04-09 12:57:16', '2020-04-09 12:57:16');
+INSERT INTO `photos` VALUES (6, 'PROCEMA', 'PROCEMA', 'photos/photo1586437068.jpg', 4, 1, 1, 2, '2020-04-09 12:57:48', '2020-04-09 12:57:48');
+INSERT INTO `photos` VALUES (7, 'UNESCO', 'UNESCO', 'photos/photo1586444485.jpg', 4, 1, 1, 2, '2020-04-09 17:01:25', '2020-04-09 15:01:25');
+INSERT INTO `photos` VALUES (8, 'FAIEJ', 'FAIEJ', 'photos/photo1586437111.jpg', 5, 1, 1, 2, '2020-04-09 12:58:31', '2020-04-09 12:58:31');
+INSERT INTO `photos` VALUES (9, 'MADE IN TOGO', 'MADE IN TOGO', 'photos/photo1586444502.jpg', 6, 1, 1, 2, '2020-04-09 17:01:42', '2020-04-09 15:01:42');
+INSERT INTO `photos` VALUES (10, 'Un engagement', 'L’adhésion à l’Organisation est libre et volontaire à toute personne, jouissant de ses droits civiques et moraux sans distinction de race, de sexe ni de religion ni de conviction politique et qui adhère à ses objectifs.', 'photos/photo1586437345.JPG', 3, 1, 1, 1, '2020-04-09 13:02:25', '2020-04-09 13:02:25');
 
 -- ----------------------------
 -- Table structure for sections
@@ -346,12 +359,13 @@ CREATE TABLE `type_users`  (
   `created_at` timestamp(0) NULL DEFAULT NULL,
   `updated_at` timestamp(0) NULL DEFAULT NULL,
   PRIMARY KEY (`id_type_users`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 2 CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Dynamic;
+) ENGINE = InnoDB AUTO_INCREMENT = 3 CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Dynamic;
 
 -- ----------------------------
 -- Records of type_users
 -- ----------------------------
 INSERT INTO `type_users` VALUES (1, 'Administrateur', 1, NULL, NULL);
+INSERT INTO `type_users` VALUES (2, 'Responsable', 1, '2020-04-10 21:01:17', '2020-04-10 21:01:17');
 
 -- ----------------------------
 -- Table structure for users
